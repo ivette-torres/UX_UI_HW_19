@@ -129,7 +129,15 @@ h4 {
   font-size: 20px;
 }
 
-
+.viewBTN {
+  background-color: #ed560b;
+  border: none;
+  padding: 12px 64px;
+  border-radius:10px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  
+}
 
 /* footer */
 
