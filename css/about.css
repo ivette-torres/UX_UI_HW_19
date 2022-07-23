@@ -1,0 +1,150 @@
+/* navbar */
+
+
+.center a {
+    color: #ed560b;
+    padding: 40px;
+    font-size: 45px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: heavy;
+  
+  }
+  
+  .center {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .center {
+    width: 90%;
+  }
+  
+  
+  /* My top section coded using CSS flex */
+  
+  
+  .ParentAboutHero {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin-top: 100px;
+  }
+  
+  .childAboutHero1 {
+    width: 50%;
+    height: 160vh;
+    text-align: left;
+  
+  }
+  
+  .childAboutHero2 {
+    width: 50%;
+    height: 160vh;
+  
+  }
+  
+  .myAboutHeroImage {
+    display:none;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    margin-block-start: 0px !important;
+    margin-block-end: 0px !important;
+  
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    color: #ed560b;
+    padding: 20px;
+    margin-block-start: 0px !important;
+    margin-block-end: 0px !important;
+  }
+  
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    padding: 20px;
+    margin-block-start: 0px !important;
+    margin-block-end: 0px !important;
+  }
+  
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ed560b;
+    padding: 20px;
+  
+  }
+  
+  
+  /* footer */
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background: #3a3329;
+    padding: 0px 60px;
+    vertical-align: bottom;
+  
+  }
+  .icon img{
+     height: 50px;
+     width: 50px;
+  }
+  
+  footer {
+    clear: both;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+  
+  }
+  
+  .footer p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  @media only screen and (max-width:600px) {
+  
+   
+    /*navbar*/
+    .center a {
+      padding: 20px;
+      font-size: 20px;
+    }
+  
+    /*footer*/
+    
+  
+    .footer img{
+      height: 40px;
+      width: 40px;
+    }
+  
+  
+    .footer {
+      padding: 0px 20px;
+      
+    }
+    
+  
+  }
