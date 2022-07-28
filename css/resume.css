@@ -45,7 +45,7 @@
     color: white;
     grid-template-areas:
     "hover"
-    "disabled"
+    
     ;
     height: 500px;
     padding-left: 50px;
@@ -92,6 +92,7 @@
     
   }
   
+
   .footer p {
     color: white;
     font-family: 'Montserrat', sans-serif;
