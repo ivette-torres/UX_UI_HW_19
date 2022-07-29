@@ -51,16 +51,16 @@
     padding-left: 50px;
   }
   .hoverMe {
-    grid-area: hover;
     background-color: #ed560b;
     color: white;
-    width: 150px;
+    width: 200px;
     text-align: center;
-    height: 50px;
+    padding: 20px;
     /* Add the css property transition here! */
     transition: all 1.0s ease;
     box-shadow: 0 0 10px 5px grey;
     border-radius: 10px;
+    text-decoration: none;
   
   }
   /* active state */
